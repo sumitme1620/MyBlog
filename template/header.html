@@ -1,0 +1,18 @@
+<!-- Dropdown Structure -->
+<ul id="dropdown1" class="dropdown-content">
+  {%for cat in cats%}
+  <li><a href="/category/{{cat.url}}">{{cat.title}}</a></li>
+  {%endfor%}
+</ul>
+<nav class="bg-primary">
+  <div class="container">
+    <div class="nav-wrapper">
+      <a href="/home" class="brand-logo">BLOGS</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="/about">ABOUT</a></li>
+        <li><a href="/contact">CONTACT US</a></li>
+        <li><a href="/admin">ADMIN</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>

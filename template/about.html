@@ -1,0 +1,42 @@
+{%extends "base.html" %}
+<br />
+{% load static %}
+<br />
+{%block title%}About{%endblock%}
+<br />
+
+{% block banner %}
+<div class="container">
+  <img
+    src="{% static 'banner/about.jpg' %}"
+    class="d-block w-100 responsive-img"
+    alt="banner-image"
+  />
+</div>
+{% endblock %}
+<br />
+
+{%block content%}
+<div class="container mt-3">
+  <h2 class="text-center">About Us</h2>
+  <br />
+  <div class="row container">
+    <p class="fs-4 text-center">
+      Welcome to Blog, your go-to destination for insightful and engaging
+      content on this site. We are passionate about Blog, and our mission is to
+      create a platform where enthusiasts, beginners, and experts alike can come
+      together to explore, learn, and share their experiences.
+    </p>
+  </div>
+  <br /><br />
+  <h2 class="text-center">Branch</h2>
+  <br />
+  <div class="row container">
+    <p class="fs-4 text-center">
+      B- 20, PLOT NO. 860, YASHODIP CHS, SECT. 8, CHARKOP, KANDIVALI WEST MUMBAI
+      - 400067
+    </p>
+  </div>
+</div>
+<br /><br />
+{%endblock%}
